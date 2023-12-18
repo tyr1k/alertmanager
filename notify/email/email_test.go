@@ -45,9 +45,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/prometheus/alertmanager/config"
-	"github.com/prometheus/alertmanager/template"
-	"github.com/prometheus/alertmanager/types"
+	"github.com/tyr1k/alertmanager/config"
+	"github.com/tyr1k/alertmanager/template"
+	"github.com/tyr1k/alertmanager/types"
 )
 
 const (

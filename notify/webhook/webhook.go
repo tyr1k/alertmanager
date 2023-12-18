@@ -27,10 +27,10 @@ import (
 	"github.com/go-kit/log/level"
 	commoncfg "github.com/prometheus/common/config"
 
-	"github.com/prometheus/alertmanager/config"
-	"github.com/prometheus/alertmanager/notify"
-	"github.com/prometheus/alertmanager/template"
-	"github.com/prometheus/alertmanager/types"
+	"github.com/tyr1k/alertmanager/config"
+	"github.com/tyr1k/alertmanager/notify"
+	"github.com/tyr1k/alertmanager/template"
+	"github.com/tyr1k/alertmanager/types"
 )
 
 // Notifier implements a Notifier for generic webhooks.

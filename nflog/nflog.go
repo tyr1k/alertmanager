@@ -33,8 +33,8 @@ import (
 	"github.com/matttproud/golang_protobuf_extensions/pbutil"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/prometheus/alertmanager/cluster"
-	pb "github.com/prometheus/alertmanager/nflog/nflogpb"
+	"github.com/tyr1k/alertmanager/cluster"
+	pb "github.com/tyr1k/alertmanager/nflog/nflogpb"
 )
 
 // ErrNotFound is returned for empty query results.

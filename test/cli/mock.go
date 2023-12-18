@@ -23,8 +23,8 @@ import (
 
 	"github.com/go-openapi/strfmt"
 
-	"github.com/prometheus/alertmanager/api/v2/models"
-	"github.com/prometheus/alertmanager/notify/webhook"
+	"github.com/tyr1k/alertmanager/api/v2/models"
+	"github.com/tyr1k/alertmanager/notify/webhook"
 )
 
 // At is a convenience method to allow for declarative syntax of Acceptance

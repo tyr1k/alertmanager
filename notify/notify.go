@@ -28,13 +28,13 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/alertmanager/featurecontrol"
-	"github.com/prometheus/alertmanager/inhibit"
-	"github.com/prometheus/alertmanager/nflog"
-	"github.com/prometheus/alertmanager/nflog/nflogpb"
-	"github.com/prometheus/alertmanager/silence"
-	"github.com/prometheus/alertmanager/timeinterval"
-	"github.com/prometheus/alertmanager/types"
+	"github.com/tyr1k/alertmanager/featurecontrol"
+	"github.com/tyr1k/alertmanager/inhibit"
+	"github.com/tyr1k/alertmanager/nflog"
+	"github.com/tyr1k/alertmanager/nflog/nflogpb"
+	"github.com/tyr1k/alertmanager/silence"
+	"github.com/tyr1k/alertmanager/timeinterval"
+	"github.com/tyr1k/alertmanager/types"
 )
 
 // ResolvedSender returns true if resolved notifications should be sent.

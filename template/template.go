@@ -30,8 +30,8 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"github.com/prometheus/alertmanager/asset"
-	"github.com/prometheus/alertmanager/types"
+	"github.com/tyr1k/alertmanager/asset"
+	"github.com/tyr1k/alertmanager/types"
 )
 
 // Template bundles a text and a html template instance.

@@ -15,7 +15,7 @@
 
 // Package restapi Alertmanager API
 //
-//	API of the Prometheus Alertmanager (https://github.com/prometheus/alertmanager)
+//	API of the Prometheus Alertmanager (https://github.com/tyr1k/alertmanager)
 //	Schemes:
 //	  http
 //	Host: localhost

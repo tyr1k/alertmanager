@@ -25,10 +25,10 @@ import (
 	commoncfg "github.com/prometheus/common/config"
 	"gopkg.in/telebot.v3"
 
-	"github.com/prometheus/alertmanager/config"
-	"github.com/prometheus/alertmanager/notify"
-	"github.com/prometheus/alertmanager/template"
-	"github.com/prometheus/alertmanager/types"
+	"github.com/tyr1k/alertmanager/config"
+	"github.com/tyr1k/alertmanager/notify"
+	"github.com/tyr1k/alertmanager/template"
+	"github.com/tyr1k/alertmanager/types"
 )
 
 // Telegram supports 4096 chars max - from https://limits.tginfo.me/en.

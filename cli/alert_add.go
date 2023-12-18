@@ -23,10 +23,10 @@ import (
 	"github.com/alecthomas/kingpin/v2"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/prometheus/alertmanager/api/v2/client/alert"
-	"github.com/prometheus/alertmanager/api/v2/models"
-	"github.com/prometheus/alertmanager/matchers/compat"
-	"github.com/prometheus/alertmanager/pkg/labels"
+	"github.com/tyr1k/alertmanager/api/v2/client/alert"
+	"github.com/tyr1k/alertmanager/api/v2/models"
+	"github.com/tyr1k/alertmanager/matchers/compat"
+	"github.com/tyr1k/alertmanager/pkg/labels"
 )
 
 type alertAddCmd struct {

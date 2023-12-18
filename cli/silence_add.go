@@ -25,10 +25,10 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/alertmanager/api/v2/client/silence"
-	"github.com/prometheus/alertmanager/api/v2/models"
-	"github.com/prometheus/alertmanager/matchers/compat"
-	"github.com/prometheus/alertmanager/pkg/labels"
+	"github.com/tyr1k/alertmanager/api/v2/client/silence"
+	"github.com/tyr1k/alertmanager/api/v2/models"
+	"github.com/tyr1k/alertmanager/matchers/compat"
+	"github.com/tyr1k/alertmanager/pkg/labels"
 )
 
 func username() string {

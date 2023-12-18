@@ -21,10 +21,10 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/alertmanager/api/v2/client/silence"
-	"github.com/prometheus/alertmanager/api/v2/models"
-	"github.com/prometheus/alertmanager/featurecontrol"
-	. "github.com/prometheus/alertmanager/test/with_api_v2"
+	"github.com/tyr1k/alertmanager/api/v2/client/silence"
+	"github.com/tyr1k/alertmanager/api/v2/models"
+	"github.com/tyr1k/alertmanager/featurecontrol"
+	. "github.com/tyr1k/alertmanager/test/with_api_v2"
 )
 
 func TestAddSilence(t *testing.T) {

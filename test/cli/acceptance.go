@@ -34,10 +34,10 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	apiclient "github.com/prometheus/alertmanager/api/v2/client"
-	"github.com/prometheus/alertmanager/api/v2/client/general"
-	"github.com/prometheus/alertmanager/api/v2/models"
-	"github.com/prometheus/alertmanager/cli/format"
+	apiclient "github.com/tyr1k/alertmanager/api/v2/client"
+	"github.com/tyr1k/alertmanager/api/v2/client/general"
+	"github.com/tyr1k/alertmanager/api/v2/models"
+	"github.com/tyr1k/alertmanager/cli/format"
 )
 
 const (

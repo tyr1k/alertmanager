@@ -23,10 +23,10 @@ import (
 	"github.com/alecthomas/kingpin/v2"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/alertmanager/api/v2/client/general"
-	"github.com/prometheus/alertmanager/api/v2/models"
-	"github.com/prometheus/alertmanager/config"
-	"github.com/prometheus/alertmanager/pkg/labels"
+	"github.com/tyr1k/alertmanager/api/v2/client/general"
+	"github.com/tyr1k/alertmanager/api/v2/models"
+	"github.com/tyr1k/alertmanager/config"
+	"github.com/tyr1k/alertmanager/pkg/labels"
 )
 
 // getRemoteAlertmanagerConfigStatus returns status responsecontaining configuration from remote Alertmanager

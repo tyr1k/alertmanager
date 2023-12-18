@@ -22,10 +22,10 @@ import (
 
 	kingpin "github.com/alecthomas/kingpin/v2"
 
-	"github.com/prometheus/alertmanager/api/v2/client/silence"
-	"github.com/prometheus/alertmanager/api/v2/models"
-	"github.com/prometheus/alertmanager/cli/format"
-	"github.com/prometheus/alertmanager/matchers/compat"
+	"github.com/tyr1k/alertmanager/api/v2/client/silence"
+	"github.com/tyr1k/alertmanager/api/v2/models"
+	"github.com/tyr1k/alertmanager/cli/format"
+	"github.com/tyr1k/alertmanager/matchers/compat"
 )
 
 type silenceQueryCmd struct {

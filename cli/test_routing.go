@@ -22,10 +22,10 @@ import (
 	"github.com/alecthomas/kingpin/v2"
 	"github.com/xlab/treeprint"
 
-	"github.com/prometheus/alertmanager/api/v2/models"
-	"github.com/prometheus/alertmanager/dispatch"
-	"github.com/prometheus/alertmanager/matchers/compat"
-	"github.com/prometheus/alertmanager/pkg/labels"
+	"github.com/tyr1k/alertmanager/api/v2/models"
+	"github.com/tyr1k/alertmanager/dispatch"
+	"github.com/tyr1k/alertmanager/matchers/compat"
+	"github.com/tyr1k/alertmanager/pkg/labels"
 )
 
 const routingTestHelp = `Test alert routing

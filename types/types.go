@@ -23,8 +23,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/alertmanager/featurecontrol"
-	"github.com/prometheus/alertmanager/pkg/labels"
+	"github.com/tyr1k/alertmanager/featurecontrol"
+	"github.com/tyr1k/alertmanager/pkg/labels"
 )
 
 // AlertState is used as part of AlertStatus.

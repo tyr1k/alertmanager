@@ -30,9 +30,9 @@ import (
 	"github.com/prometheus/common/model"
 	"gopkg.in/yaml.v2"
 
-	"github.com/prometheus/alertmanager/matchers/compat"
-	"github.com/prometheus/alertmanager/pkg/labels"
-	"github.com/prometheus/alertmanager/timeinterval"
+	"github.com/tyr1k/alertmanager/matchers/compat"
+	"github.com/tyr1k/alertmanager/pkg/labels"
+	"github.com/tyr1k/alertmanager/timeinterval"
 )
 
 const secretToken = "<secret>"

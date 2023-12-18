@@ -30,11 +30,11 @@ import (
 	"github.com/prometheus/common/version"
 	"golang.org/x/mod/semver"
 
-	"github.com/prometheus/alertmanager/api/v2/client"
-	"github.com/prometheus/alertmanager/cli/config"
-	"github.com/prometheus/alertmanager/cli/format"
-	"github.com/prometheus/alertmanager/featurecontrol"
-	"github.com/prometheus/alertmanager/matchers/compat"
+	"github.com/tyr1k/alertmanager/api/v2/client"
+	"github.com/tyr1k/alertmanager/cli/config"
+	"github.com/tyr1k/alertmanager/cli/format"
+	"github.com/tyr1k/alertmanager/featurecontrol"
+	"github.com/tyr1k/alertmanager/matchers/compat"
 )
 
 var (

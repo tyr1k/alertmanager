@@ -10,6 +10,6 @@ Release cadence of first pre-releases being cut is 12 weeks.
 | v0.26          | 2023-08-23            | Josh Abreu (Github: @gotjosh) |
 | v0.27          | 2023-11-01            | Josh Abreu (Github: @gotjosh) |
 
-If you are interested in volunteering please create a pull request against the [prometheus/alertmanager](https://github.com/prometheus/alertmanager) repository and propose yourself for the release of your choice.
+If you are interested in volunteering please create a pull request against the [prometheus/alertmanager](https://github.com/tyr1k/alertmanager) repository and propose yourself for the release of your choice.
 
 If you'd like to know more about the shepherd responsibilities or the release instructions please [refer to the `RELEASE.MD`](https://github.com/prometheus/prometheus/blob/main/RELEASE.md) in [prometheus/prometheus](https://github.com/prometheus/prometheus).

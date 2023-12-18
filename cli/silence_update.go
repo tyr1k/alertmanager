@@ -23,9 +23,9 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/alertmanager/api/v2/client/silence"
-	"github.com/prometheus/alertmanager/api/v2/models"
-	"github.com/prometheus/alertmanager/cli/format"
+	"github.com/tyr1k/alertmanager/api/v2/client/silence"
+	"github.com/tyr1k/alertmanager/api/v2/models"
+	"github.com/tyr1k/alertmanager/cli/format"
 )
 
 type silenceUpdateCmd struct {

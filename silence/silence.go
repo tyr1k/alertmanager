@@ -37,11 +37,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/alertmanager/cluster"
-	"github.com/prometheus/alertmanager/featurecontrol"
-	"github.com/prometheus/alertmanager/pkg/labels"
-	pb "github.com/prometheus/alertmanager/silence/silencepb"
-	"github.com/prometheus/alertmanager/types"
+	"github.com/tyr1k/alertmanager/cluster"
+	"github.com/tyr1k/alertmanager/featurecontrol"
+	"github.com/tyr1k/alertmanager/pkg/labels"
+	pb "github.com/tyr1k/alertmanager/silence/silencepb"
+	"github.com/tyr1k/alertmanager/types"
 )
 
 // ErrNotFound is returned if a silence was not found.

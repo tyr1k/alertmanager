@@ -21,9 +21,9 @@ import (
 
 	"github.com/alecthomas/kingpin/v2"
 
-	"github.com/prometheus/alertmanager/api/v2/client/alert"
-	"github.com/prometheus/alertmanager/cli/format"
-	"github.com/prometheus/alertmanager/matchers/compat"
+	"github.com/tyr1k/alertmanager/api/v2/client/alert"
+	"github.com/tyr1k/alertmanager/cli/format"
+	"github.com/tyr1k/alertmanager/matchers/compat"
 )
 
 type alertQueryCmd struct {
